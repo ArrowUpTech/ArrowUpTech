@@ -71,7 +71,7 @@
           <li><a href="#pricing">Pricing</a></li>
 
           <li><a href="#contact">Contact</a></li>
-
+          <li><a href="ArrowUp.html">ARROWUP</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -130,7 +130,7 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <!-- <section id="about" class="about">
       <div class="container">
 
         <div class="row">
@@ -157,11 +157,12 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section> -->
+    <!-- End About Section -->
 
     <!-- ======= Features Section ======= -->
-    <!-- <section id="features" class="features">
-      <section id="about" class="about">
+    <section id="features" class="features">
+    <section id="about" class="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-6" data-aos="zoom-in">
@@ -245,7 +246,7 @@
         </div>
 
       </div>
-    </section> -->
+    </section>
     
     <!-- End Features Section -->
 
@@ -460,8 +461,13 @@
             <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">
+              <div class="whatsapp-icon" onclick="openWhatsAppChat()">
+                <!-- Replace 'your_number' with your actual WhatsApp number -->
+                <img src="assets/img/Whtsappicon.png" alt="WhatsApp Icon">
+              </div></a>
           </div>
+         
         </div>
 
       </div>
@@ -469,7 +475,7 @@
     <!-- End Cta Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <!-- <section id="testimonials" class="testimonials">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -536,11 +542,12 @@
 
         </div>
 
-      </div>
-    </section><!-- End Testimonials Section -->
+      </div> -->
+    <!-- </section> -->
+    <!-- End Testimonials Section -->
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <!-- <section id="team" class="team">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -601,7 +608,8 @@
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section> -->
+    <!-- End Team Section -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
@@ -968,7 +976,10 @@
     </div>
   </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
+  <a href="#" class="back-to-top"> <div class="whatsapp-icon" onclick="openWhatsAppChat()">
+    <!-- Replace 'your_number' with your actual WhatsApp number -->
+    <img src="assets/img/Whtsappicon.png" alt="WhatsApp Icon">
+  </div><i class="bx bxs-up-arrow-alt"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
@@ -982,6 +993,12 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    function openWhatsAppChat() {
+      // Replace 'your_number' with your actual WhatsApp number
+      window.open('https://wa.me/7709093160', '_blank');
+    }
+  </script>
 
 </body>
 
