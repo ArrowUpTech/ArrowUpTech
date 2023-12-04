@@ -934,12 +934,15 @@ Practice mock interviews with people working in the industry -->
   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script>
-    function openWhatsAppChat() {
-      // Replace 'your_number' with your actual WhatsApp number
-      window.open('https://wa.me/7709093160', 'Hi');
-    }
-  </script>
+<script>
+  function openWhatsAppChat() {
+    // Replace 'your_number' with your actual WhatsApp number
+    const customMessage = 'Hi, my name is [Your Name]'; // Replace [Your Name] with your actual name or custom message
+    const encodedMessage = encodeURIComponent(customMessage);
+    window.open(`https://wa.me/7709093160?text=${encodedMessage}`, 'Hi');
+  }
+</script>
+
 
 </body>
 
