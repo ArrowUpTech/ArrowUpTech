@@ -1025,9 +1025,11 @@ section {
 
 .clients .client-logo img {
   max-width: 50%;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
+  
 }
+/* 
+-webkit-filter: grayscale(100);
+  filter: grayscale(100); */
 
 .clients .client-logo:hover img {
   -webkit-filter: none;
