@@ -180,3 +180,44 @@
   });
 
 })(jQuery);
+
+
+//typewritter
+
+const headlines = [
+    "Grow. Excel. Thrive.",
+    "Learn. Evolve. Succeed.",
+    "Discover. Develop. Lead."
+];
+
+let headlineElement = document.getElementById("headline1");
+let currentHeadlineIndex = 0;
+let currentCharIndex = 0;
+let typingSpeed = 100; // milliseconds
+let deletingSpeed = 50; // milliseconds
+let pauseBetweenHeadlines = 1500; // milliseconds
+
+function type() {
+    if (currentCharIndex < headlines[currentHeadlineIndex].length) {
+        headlineElement.textContent += headlines[currentHeadlineIndex].charAt(currentCharIndex);
+        currentCharIndex++;
+        setTimeout(type, typingSpeed);
+    } else {
+        setTimeout(deleteText, pauseBetweenHeadlines);
+    }
+}
+
+function deleteText() {
+    if (currentCharIndex > 0) {
+        headlineElement.textContent = headlines[currentHeadlineIndex].substring(0, currentCharIndex - 1);
+        currentCharIndex--;
+        setTimeout(deleteText, deletingSpeed);
+    } else {
+        currentHeadlineIndex = (currentHeadlineIndex + 1) % headlines.length;
+        setTimeout(type, typingSpeed + 1000); // Pause before typing next headline
+    }
+}
+
+window.onload = () => {
+    type();
+};

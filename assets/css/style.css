@@ -1698,3 +1698,25 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+
+.headline-container1 {
+  text-align: center;
+  margin-top: 50px; /* Adjust margin as needed */
+}
+
+#headline1{
+  font-size: 1.5rem; /* Adjust size as needed */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.15em #3b3b3b; /* Cursor effect color */
+  animation: blink 0.7s step-end infinite;
+  color: #3b3b3b; /* Change color if necessary */
+  font-family: 'Courier New', Courier, monospace; /* Adjust font-family as needed */
+}
+
+@keyframes blink {
+  50% {
+      border-color: transparent;
+  }
+}
