@@ -1711,7 +1711,7 @@ section {
 }
 
 #headline1 {
-  font-size: 2rem;             /* Adjust size as needed */
+  font-size: 1.5rem;             /* Adjust size as needed */
   white-space: nowrap;         /* Prevent line breaks */
   overflow: hidden;            /* Hide overflow text */
   border-right: 2px solid #636363; /* Cursor effect color */
