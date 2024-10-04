@@ -1700,19 +1700,25 @@ section {
 }
 
 
+/* typewritter */
+
 .headline-container1 {
-  text-align: center;
-  margin-top: 50px; /* Adjust margin as needed */
+  display: flex;                /* Use flexbox for alignment */
+  justify-content: center;      /* Center horizontally */
+  align-items: center;          /* Center vertically */
+  height: 50px;                 /* Set a fixed height to avoid shifting */
+  margin-top: 20px;            /* Adjust margin as needed */
 }
 
-#headline1{
-  font-size: 1.5rem; /* Adjust size as needed */
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 0.15em #3b3b3b; /* Cursor effect color */
+#headline1 {
+  font-size: 2rem;             /* Adjust size as needed */
+  white-space: nowrap;         /* Prevent line breaks */
+  overflow: hidden;            /* Hide overflow text */
+  border-right: 2px solid #636363; /* Cursor effect color */
   animation: blink 0.7s step-end infinite;
-  color: #3b3b3b; /* Change color if necessary */
+  color: #434343;              /* Change color if necessary */
   font-family: 'Courier New', Courier, monospace; /* Adjust font-family as needed */
+  margin: 0;                   /* Remove default margin */
 }
 
 @keyframes blink {
@@ -1720,3 +1726,4 @@ section {
       border-color: transparent;
   }
 }
+

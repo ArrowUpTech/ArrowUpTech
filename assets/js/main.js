@@ -184,6 +184,7 @@
 
 //typewritter
 
+
 const headlines = [
     "Grow. Excel. Thrive.",
     "Learn. Evolve. Succeed.",
@@ -221,3 +222,4 @@ function deleteText() {
 window.onload = () => {
     type();
 };
+
