@@ -4,590 +4,483 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>ArrowUp</title>
-  <meta content="" name="descriptison">
-  <meta content="" name="keywords">
+  <title>Arrowp-Tech</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/letterafav.png" rel="icon">
-  <link href="assets/img/letterafav.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body class="index-page">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <div class="logo mr-auto">
-       
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/ArrowupLogo.png" alt="">
+        <h1 class="sitename">Arrowup Tech</h1>
+      </a>
 
-       <!-- <h1><a href="/index">ArrowUp</a></h1> -->
-       <!-- Uncomment below if you prefer to use an image logo -->
-       <a href="/index"><img src="assets/img/logo13.png" alt="" class="img-fluid"></a>
-
-
-
-      </div>
-
-      <nav class="nav-menu d-none d-lg-block">
+      <nav id="navmenu" class="navmenu">
         <ul>
-          <li class="active"><a href="/index">Home</a></li>
-
-          </li>
-          <li><a href="#about">About</a>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#resume">About</a></li>
+          <!-- <li><a href="#resume">Resume</a></li> -->
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
           <li><a href="#services">Services</a></li>
-          <!-- <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#pricing">Pricing</a></li> -->
-
-          <li class="drop-down"><a href="">New Courses</a>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="/Enroll">Web Development ('24-'25)</a></li>
-              <li><a href="/Enroll">Android App Development with Kotlin</a></li>
-              <li><a href="/Enroll">Data Analytics with Python and Power BI</a></li>
-              <li><a href="/Enroll">Selenium Automation Testing Mastery</a></li>
-              <!-- <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="formlinks.html">Form links</a></li>
-              <li><a href="team.html">Team</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a> -->
-
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
               </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
             </ul>
-
-          <!-- <li><a href="#contact">Contact</a></li> -->
-          <!-- <li><a href="ArrowUp.html">ArrowUp</a></li> -->
+          </li> -->
+          <li><a href="#footer">Contact</a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
       <div class="header-social-links">
-        <!-- <a href="#" class="twitter"><i class="icofont-brand-whatsapp"></i></a> -->
-        <!-- <a href="#" class="instagram"><i class="icofont-instagram"></i></a> -->
-        <a href="https://www.youtube.com/@Team_ArrowUp/featured" class="facebook"><i class="icofont-brand-youtube"></i></a>
-        <a href="https://www.linkedin.com/company/arrowup-academy" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+        <!-- <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a> -->
+        <!-- <a href="#" class="facebook"><i class="bi bi-facebook"></i></a> -->
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/arrowup-academy" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
-                <div>
-                    <div class="headline-container1">
-                        <h5 id="headline1"></h5> <!-- Typewriter headline here -->
-                    </div>
+  <main class="main">
 
-                    <h1 class="h1 section-title">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
 
-                        <span class="span" style="color: #00b7f4;">Level Up</span> with <span class="span" style="color: #ff006a;">ArrowUp</span> Academy
-                    </h1>
-                    <h2>At ArrowUp Academy, we fuel your tech passion with transformative learning, propelling you towards mastery. Our goal is to empower you to conquer the complexities of technology with confidence and innovation</h2>
-                    <a href="/course_list" class="btn-get-started scrollto">Explore new batches</a>
-                </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center content">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h2>Crafting Future-Ready Websites and Apps with Innovative Design</h2>
+            <p class="lead">Specializing in Web Development, App Development, and Exceptional Design to Help Your Business Shine</p>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="300">
+              <a href="#portfolio" class="btn btn-primary">Our Work</a>
+              <a href="#contact" class="btn btn-outline">Let's Connect</a>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-                <img src="assets/img/Arrowup.png" class="img-fluid" alt="">
-                <div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-  <!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Section ======= -->
- 
-
-    <section id="features" class="features">
-    <section id="about" class="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6" data-aos="zoom-in">
-        <img src="assets/img/MainLogo.png" class="img-fluid" alt="">
-      </div>
-      <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
-        <div class="content pt-4 pt-lg-0">
-          <h3>Empowering Tech Enthusiasts</h3>
-          <p class="font-italic">
-            ArrowUp Academy is the key to upscaling in tech education. With a dedication to innovation, we empower students to elevate their skills and excel in the tech-driven world. Our immersive courses, guided by experienced mentors, ensure hands-on learning that transforms theoretical knowledge into practical expertise. Join us in embracing the arrow pointing upwards, symbolizing progress and the pursuit of excellence in the world of technology. Welcome to ArrowUp Academy – where your journey to upscale in life begins.
-          </p>
-          
-          <ul>
-            <li><i class="icofont-check-circled"></i>At ArrowUp Academy, our vision is to elevate students and help them achieve their goals by providing a comprehensive suite of services through our collaboration with colleges.</li>
-            <!-- <li><i class="icofont-check-circled"></i> Excel in the world of technology with experienced mentors.</li> -->
-            <li><i class="icofont-check-circled"></i>Our mission is to bridge the gap between the theoretical knowledge imparted in colleges and the practical skills demanded by the tech industry. Through strategic collaborations with colleges, we aim to equip students with the expertise and insights necessary to excel in today's dynamic tech landscape. Together, we are reshaping education, empowering students to seamlessly transition from academia to industry, and ensuring they are well-prepared to meet the demands of the ever-evolving tech sector.</li>
-          </ul>
-          <!-- <p>
-            ArrowUp Tech Academy is committed to providing a transformative learning experience. Join us to upscale your life through cutting-edge tech education.
-          </p> -->
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
- 
-    <!-- End About Section -->
-
-<!-- features that makes us unique -->
-
-
-<br>
-
-      <div class="container">
-<br>
-<div class="section-title" data-aos="fade-up">
-  <h2>The features that set us apart and make us unique</h2>
-  <!-- <p>Embark on Your Coding Journey</p> -->
-</div>
-        <div class="row">
-          <div class="col-lg-6 mt-2 mb-tg-0 order-2 order-lg-1">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item" data-aos="fade-up">
-                <a class="nav-link active show" data-toggle="tab" href="#tab-1">
-                  <h4>Hands-on learning through actual projects</h4>
-                  <!-- <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p> -->
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="100">
-                <a class="nav-link" data-toggle="tab" href="#tab-2">
-                  <h4>Interactive classes led by experienced professionals with real-world expertise</h4>
-                  <!-- <p>Voluptas vel esse repudiandae quo excepturi.</p> -->
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="200">
-                <a class="nav-link" data-toggle="tab" href="#tab-3">
-                  <h4>Individualized guidance from industry veterans through personalized mentorship</h4>
-                  <!-- <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p> -->
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="300">
-                <a class="nav-link" data-toggle="tab" href="#tab-4">
-                  <h4>A well-designed curriculum validated by industry standards</h4>
-                  <!-- <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p> -->
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="300">
-                <a class="nav-link" data-toggle="tab" href="#tab-5">
-                  <h4>Resume and LinkedIn Optimization by Industry Experts</h4>
-                  <!-- <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p> -->
-                </a>
-              </li>
-              <li class="nav-item mt-2" data-aos="fade-up" data-aos-delay="300">
-                <a class="nav-link" data-toggle="tab" href="#tab-6">
-                  <h4>Practice mock interviews with people working in the industry</h4>
-                  <!-- <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p> -->
-                </a>
-              </li>
-              
-            </ul>
+            <!-- <div class="hero-stats" data-aos="fade-up" data-aos-delay="400">
+              <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">38+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">21+</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+            </div> -->
           </div>
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <figure>
-                  <img src="assets/img/Basics Of programming.jpg" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <figure>
-                  <img src="assets/img/resume likdein optimization.jpg" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <figure>
-                  <img src="assets/img/wel design.jpg" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <figure>
-                  <img src="assets/img/mixprograms.jpg" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <figure>
-                
-                  <img src="assets/img/Resume.jpg" alt="" class="img-fluid">
-                </figure>
-              </div>
-              <div class="tab-pane" id="tab-6">
-                <figure>
-                  <img src="assets/img/job interview.jpg" alt="" class="img-fluid">
-                </figure>
-              </div>
+          <div class="col-lg-6">
+            <div class="hero-image">
+               <img src="assets/img/ArrowupLogo.png" alt="Portfolio Hero Image" class="img-fluid" data-aos="zoom-out" data-aos-delay="300">
+              <!-- <div class="shape-1"></div>
+              <div class="shape-2"></div> -->
             </div>
           </div>
         </div>
 
       </div>
-    </section>
 
-    <!-- End Features Section -->
+    </section><!-- /Hero Section -->
 
-    <!-- ======= Services Section ======= -->
+
+ 
+
     <section id="services" class="services section-bg">
       <div class="container">
 
-        <div class="section-title" data-aos="fade-up">
+               <!-- Section Title -->
+               <div class="container section-title" data-aos="fade-up">
+                <h2>Our Services</h2>
+                <!-- <div class="title-shape">
+                  <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+                  </svg>
+                </div> -->
+                <div class="title-shape">
+                  <svg viewBox="0 0 200 5" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="10" y1="2.5" x2="190" y2="2.5" stroke="currentColor" stroke-width="3"/>
+                  </svg>
+                </div>
+                
+                <p>We offer cutting-edge web and mobile solutions tailored to your business needs. From scalable websites and feature-rich apps to custom software and IT consulting, our services are designed to drive innovation and success.</p>
+
+              </div><!-- End Section Title -->
+
+        <!-- <div class="section-title" data-aos="fade-up">
           <h2>Explore Our Comprehensive Services at ArrowUp Academy</h2>
           <p>At ArrowUp Academy, we're dedicated to nurturing your success in the IT realm. Discover a range of specialized services tailored to elevate your skills and career prospects</p>
-        </div>
+        </div> -->
 
         <div class="row">
+          <!-- Web Development -->
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
             <div class="icon-box icon-box-pink">
-              <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
-              <iconify-icon icon="fa-solid:user-friends" style="color: #eb346e;" width="48" height="48"></iconify-icon>
-              <h4 class="title"><a href="">Mentorship Program</a></h4>
-              <p class="description">Personalized guidance from industry experts to shape your professional path.</p>
+              <iconify-icon icon="mdi:code-tags" style="color: #eb346e;" width="48" height="48"></iconify-icon>
+              <h4 class="title"><a href="">Web Development</a></h4>
+              <p class="description">Crafting high-performance, secure, and scalable websites with modern technologies.</p>
             </div>
           </div>
-
+        
+          <!-- Mobile App Development -->
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box icon-box-cyan">
-              <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
-              <iconify-icon icon="bx:code-block" style="color: #34cfeb;" width="48" height="48"></iconify-icon>
-              <h4 class="title"><a href="">Coding Bootcamps</a></h4>
-              <p class="description">Master the language of technology with hands-on coding experiences and challenges.</p>
+              <iconify-icon icon="mdi:cellphone" style="color: #34cfeb;" width="48" height="48"></iconify-icon>
+              <h4 class="title"><a href="">Mobile App Development</a></h4>
+              <p class="description">Creating user-friendly, scalable, and high-performance mobile applications for Android & iOS.</p>
             </div>
           </div>
-
+        
+          <!-- Custom Software Solutions -->
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box icon-box-green">
-              <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
-              <iconify-icon icon="icon-park-outline:code-computer" style="color: #34eb43;" width="48" height="48"></iconify-icon>
-              <h4 class="title"><a href="">Full Stack Development</a></h4>
-              <p class="description">Dive into a comprehensive learning experience covering the full spectrum of IT development.</p>
+              <iconify-icon icon="mdi:application-cog" style="color: #34eb43;" width="48" height="48"></iconify-icon>
+              <h4 class="title"><a href="">Custom Software Solutions</a></h4>
+              <p class="description">Developing AI-driven, cloud-based, and automation-powered business solutions.</p>
             </div>
           </div>
-
+        
+          <!-- IT Consulting & Training -->
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box icon-box-blue">
-              <!-- <div class="icon"><i class="bx bx-world"></i></div> -->
-              <iconify-icon icon="carbon:rocket" style="color: #346beb;" width="48" height="48"></iconify-icon>
-              <h4 class="title"><a href="">Placement Preparation</a></h4>
-              <p class="description">Equip yourself with the tools and knowledge needed to excel in top-tier MNC placements.</p>
+              <iconify-icon icon="mdi:school" style="color: #346beb;" width="48" height="48"></iconify-icon>
+              <h4 class="title"><a href="">IT Consulting & Training</a></h4>
+              <p class="description">Expert guidance and industry-focused training to elevate your tech career.</p>
             </div>
           </div>
-
         </div>
+        
 
       </div>
     </section>
     <!-- End Services Section -->
 
 
-   
 
-    
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Get Placement-Ready for Your Aspired Companies with Us!</h2>
-        <!-- <p>At ArrowUp Academy, excellence is not just a goal; it's our foundation. Our distinguished team of mentors and educators brings a wealth of industry experience, with members who have collectively thrived in top-tier MNCs for over 3 to 5 years. Immerse yourself in a learning environment crafted by these seasoned professionals, and let their real-world insights pave the way for your success. Your journey to mastery begins with the guidance of those who have excelled in the very companies you aspire to join.</p> -->
-       <p>
-        At ArrowUp Academy, excellence isn't merely an aim; it's ingrained in our core philosophy. Our esteemed mentors and educators boast extensive industry backgrounds, having thrived in leading multinational corporations. Immerse yourself in an educational atmosphere meticulously curated by these seasoned professionals, allowing their practical wisdom to illuminate your path to success. Embark on your journey to mastery under the guidance of those who have excelled in the very enterprises you aspire to join.</p>
+ <!-- Skills Section -->
+ <section id="skills" class="skills section">
+     <!-- Section Title -->
+     <div class="container section-title" data-aos="fade-up">
+      <h2>Our Process</h2>
+      <div class="title-shape">
+        <svg viewBox="0 0 200 5" xmlns="http://www.w3.org/2000/svg">
+          <line x1="10" y1="2.5" x2="190" y2="2.5" stroke="currentColor" stroke-width="3"/>
+        </svg>
       </div>
+      <p>We follow a structured process to bring your ideas to life with precision and excellence.</p>
+    </div><!-- End Section Title -->
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4 skills-animation">
 
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in">
-              <img src="assets/img/clients/Cognizant-Logo.png" class="img-fluid" alt="">
-            </div>
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+        <div class="skill-box">
+          <iconify-icon icon="mdi:lightbulb-on-outline" style="color: #eb346e;" width="48" height="48"></iconify-icon>
+          <h3>Discover</h3>
+          <p>Understanding your vision, goals, and requirements to lay the foundation for a tailored solution.</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
           </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
-              <img src="assets/img/clients/tata-consultancy-services.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
-              <img src="assets/img/clients/Capgemni.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
-              <img src="assets/img/clients/Accenture.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
-              <img src="assets/img/clients/wipro.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-        
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="350">
-              <img src="assets/img/clients/Tech_Mahindra.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4 col-xs-6" data-aos="zoom-in" data-aos-delay="400">
-            <div class="client-logo">
-              <img src="assets/img/clients/persistent.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/clients/infosys-logo.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
         </div>
-
       </div>
-    </section>
-    
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+        <div class="skill-box">
+          <iconify-icon icon="mdi:pencil-ruler" style="color: #34cfeb;" width="48" height="48"></iconify-icon>
+          <h3>Design</h3>
+          <p>Creating user-friendly and visually appealing designs that align with your brand and audience.</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+        <div class="skill-box">
+          <iconify-icon icon="mdi:code-braces" style="color: #34eb43;" width="48" height="48"></iconify-icon>
+          <h3>Develop</h3>
+          <p>Building scalable and robust websites or apps using the latest technologies and best practices.</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+        <div class="skill-box">
+          <iconify-icon icon="mdi:rocket-launch-outline" style="color: #346beb;" width="48" height="48"></iconify-icon>
+          <h3>Deliver</h3>
+          <p>Ensuring a seamless launch with thorough testing, deployment, and ongoing support.</p>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /Skills Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
-    <!-- ======= Contact Section ======= -->
-    <!-- <section id="contact" class="contact section-bg">
-      <div class="container">
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Our Location</h2>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Journey</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 5" xmlns="http://www.w3.org/2000/svg">
+            <line x1="10" y1="2.5" x2="190" y2="2.5" stroke="currentColor" stroke-width="3"/>
+          </svg>
         </div>
+        <p>At ArrowUp Technologies, we deliver innovative web and app solutions that empower businesses and drive growth in the digital age.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row">
+          <div class="col-12">
+            <div class="resume-wrapper">
+              <div class="resume-block" data-aos="fade-up">
+                <!-- <h2>Work Experience</h2>
+                <p class="lead">Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet adipiscing sem neque sed ipsum.</p> -->
 
-          <div class="col-lg-5 d-flex align-items-stretch" data-aos="fade-right">
-            <div class="info">
-              <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
-                <p>Mayur Colony , Kothrud, Pune</p>
+                <div class="timeline">
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-left">
+                      <h4 class="company">Where It All Began</h4>
+                      <span class="period">(April 2023)</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">The Launch</h3>
+                      <p class="description">ArrowUp Technologies was officially founded on April 9, 2023, with a clear vision: to create exceptional websites, mobile apps, and software solutions that combine innovation with practical functionality. From the outset, we aimed to deliver real value by crafting future-ready digital tools tailored to the unique needs of our clients.</p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-left">
+                      <h4 class="company">Building the Foundation</h4>
+                      <span class="period">(June 2023)</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Early Achievements</h3>
+                      <p class="description">
+                        Within just a few months of our launch, we successfully completed our first projects, enabling businesses to establish a strong digital presence. These initial milestones helped us earn client trust and solidify our commitment to delivering quality and efficient solutions.                      </p>
+                      <!-- <ul>
+                        <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                        <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                        <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                        <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                      </ul> -->
+                      <p></p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-left">
+                      <h4 class="company">The Grind</h4>
+                      <span class="period">(July 2023 – December 2024)</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Scaling and Growth</h3>
+                      <p class="description">Over the next year and a half, we dedicated ourselves to constant innovation, relentless improvement, and teamwork. By staying ahead of industry trends and incorporating advanced technologies, we developed solutions that aligned perfectly with the business objectives of our clients. This period also marked significant growth in our team and capabilities.</p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-left">
+                      <h4 class="company">Trusted Partners in Growth </h4>
+                      <span class="period">(2024)</span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Milestones and Partnerships</h3>
+                      <p class="description">Every successful project strengthened our relationships with clients and partners. By the end of 2024, we had delivered 38+ projects, earned the trust of 21+ satisfied clients, and built a reputation as a reliable name in web and app development. These achievements reflect our unwavering dedication to quality and our client-first approach.</p>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-left">
+                      <h4 class="company">Innovating for the Future </h4>
+                      <span class="period">(2025 and Beyond)
+                      </span>
+                    </div>
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-right">
+                      <h3 class="position">Looking Ahead</h3>
+                      <p class="description">As we look to the future, ArrowUp Technologies remains committed to pushing the boundaries of innovation. We aim to deliver forward-thinking web and app solutions that enable startups and enterprises alike to succeed in an ever-evolving digital world. Our goal is to become a trusted partner for businesses looking to thrive through advanced technology and creative design.</p>
+                    </div>
+                  </div>
+
+                </div>
               </div>
 
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>arrowuptech@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>Call:</h4>
-                <p>7709093160</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-          
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.542197421733!2d73.81502207519124!3d18.50438478258603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bfebced770a1%3A0xc2d6c32804036e3f!2sM.E.Society&#39;s%20Institute%20of%20Management%20and%20Career%20Courses%20(IMCC)!5e0!3m2!1sen!2sin!4v1701165073758!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-             
-              </div>
-             
-              </div>
-              
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    
-    <!-- End Contact Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container">
-
-        <div class="row" data-aos="zoom-in">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3>Reach Us on WhatsApp with a Click!</h3>
-      
-       <p>Connect Instantly on WhatsApp for Your Next Career Move!</p>
-        </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#" onclick="openWhatsAppChat()">
-              <div class="whatsapp-icon" onclick="openWhatsAppChat()">
-                <!-- Replace 'your_number' with your actual WhatsApp number -->
-                <img src="assets/img/Whtsappicon.png" alt="WhatsApp Icon">
-              </div></a>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    <!-- End Cta Section -->
 
 
 
-
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <!-- <footer id="footer"> -->
-    <!-- <div class="footer-top ">
-      <div class="container ">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>ARROWUP</h3>
-              <p>
-                Mayur Colony, Kothrud,pune<br>MH411038<br>
-                <br>
-                <strong>Phone:</strong> +917709093160<br>
-                <strong>Email:</strong> arrowuptech@gmail.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-             
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Full Stack Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Data Science</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Mentorship Programs</a></li>
-           
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Join Our Team</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Become a Mentor</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">FAQs</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Live Events</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Support</a></li>
-            
-            </ul>
-          </div>
          
 
+      </div>
+
+    </section><!-- /Resume Section -->
+
+
+
+
+
+
+
+
+
+
+  </main>
+
+
+
+
+
+
+
+  <footer id="footer" class="footer light-background">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+        
+          <!-- Company Info -->
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">ArrowUp Technologies</span>
+            </a>
+            <p>Empowering businesses with cutting-edge web and app solutions. We create scalable, high-performance digital experiences tailored to your success.</p>
+            <div class="social-links d-flex mt-4">
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+  
+          <!-- Useful Links -->
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
+            </ul>
+          </div>
+  
+          <!-- Services -->
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Mobile App Development</a></li>
+              <li><a href="#">Custom Software Solutions</a></li>
+              <li><a href="#">IT Consulting</a></li>
+              <li><a href="#">UI/UX Design</a></li>
+            </ul>
+          </div>
+  
+          <!-- Contact Section -->
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>Kothrud, Pune</p>
+            <p>Maharashtra, India</p>
+            <!-- <p><strong>Phone:</strong> +91 7709093160</p> -->
+            <p><strong>Email:</strong> <a href="mailto:contact@arrowup.in">contact@arrowup.in</a></p>
+          </div>
+  
         </div>
       </div>
-    </div> -->
-
-    <!-- <div class="container">
-      <div class="copyright">
-        <a href="/ArrowUp">&copy; <strong><span>ArrowUp</span></strong></a> -->
-         <!-- &copy; <strong><span>ArrowUP</span></strong> -->
-      <!-- </div>
-      <div class="credits">
-
-      </div>
     </div>
-  </footer> -->
-  <!-- End Footer -->
-
- <!-- ======= Footer ======= -->
- <footer id="footer">
-  <div class="container">
-    <h3><a href="index.html"><img src="assets/img/Finallogofooter.png" alt="" class="img-fluid"></a></h3>
-    <!-- <p>Level Up with ArrowUp Academy</p> -->
-     <!-- <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p> -->
-            <p>
-              <!-- A108 Adam Street <br><br><br> -->
-              <!-- <strong>Location:</strong> Kothrud,Pune<br>
-              <strong>Phone:</strong> +917721866335<br>
-              <strong>Email:</strong> arrowuptech@gmail.com<br>
-              
-            </p> -->
-        <strong>Location:</strong> Kothrud,Pune <br>
-              <strong>Phone:</strong> +917721866335<br>
-              <strong>Email:</strong>  contact@arrowup.in<br>
-    <div class="social-links">
-      <a href="https://www.youtube.com/@Team_ArrowUp/featured" class="twitter"><i class="bx bxl-twitter"></i></a>
-      <!-- <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> -->
-      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-      <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
-      <a href="https://www.linkedin.com/company/arrowup-academy" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-    </div>
-    <!-- <div class="copyright">
-      &copy; Copyright <strong><span></span></strong>. All Rights Reserved
-    </div> -->
   
-  </div>
-</footer><!-- End Footer -->
+    <!-- Footer Bottom -->
+    <div class="container copyright text-center">
+      <!-- <p>&copy; 2025 <strong class="px-1">ArrowUp Technologies</strong>. All Rights Reserved.</p>
+      <div class="credits">
+        Designed by <a href="https://arrowup.in/">ArrowUp Technologies</a>
+      </div> -->
+    </div>
+  </footer>
+  
 
-
-
-
-
-  <a href="#" class="back-to-top"> 
-    <!-- <div class="whatsapp-icon" onclick="openWhatsAppChat()"> -->
-    <!-- Replace 'your_number' with your actual WhatsApp number -->
-    <!-- <img src="assets/img/Whtsappicon.png" alt="WhatsApp Icon"> -->
-  </div>
-  <i class="bx bxs-up-arrow-alt"></i></a>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-  <!-- Template Main JS File -->
+
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script>
-    function openWhatsAppChat() {
-      // Replace 'your_number' with your actual WhatsApp number
-      window.open('https://wa.me/7721866335', '_blank');
-    }
-  </script>
 
 </body>
 
