@@ -186,9 +186,9 @@
 
 
 const headlines = [
-    "Grow. Excel. Thrive.",
-    "Learn. Evolve. Succeed.",
-    "Discover. Develop. Lead."
+    "Grow.Excel.Thrive.",
+    "Learn.Evolve.Succeed.",
+    "Discover.Develop.Lead."
 ];
 
 let headlineElement = document.getElementById("headline1");
